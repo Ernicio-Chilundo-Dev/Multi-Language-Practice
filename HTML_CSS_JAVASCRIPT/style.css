@@ -1,0 +1,82 @@
+/* Estilos Gerais */
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+/* Container principal */
+.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Estilo doo Titulo */
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo das perguntas */
+.question{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Buttons de respostas */
+.answer-btn{
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo hover nos botoes */
+.answer-btn:hover{
+    background-color: #2980b9;
+}
+
+/* Botao desativado */
+.answer-btn:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Estilo de botao de proxima pergunta */
+.next-btn{
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-clor 0.3s ease;
+}
+
+.next-btn:hover{
+    background-color: #27ea60;
+}
+
+/* Estilo para potuanao */
+
+.score{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
