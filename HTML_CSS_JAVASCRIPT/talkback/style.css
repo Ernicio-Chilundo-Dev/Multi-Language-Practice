@@ -1,0 +1,51 @@
+body{
+    
+    font-family: Arial, sans-serif;
+}
+
+button{
+    padding: 10px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: grab;
+    background-color: rgba(61, 21, 241, 0.959);
+    transition: all 0.5s ease;
+    
+}
+
+input{
+    padding: 10px;
+    width: 60%;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(61, 21, 241, 0.959);
+    text-align: center;
+    font-weight: bold;
+     color: #fff;/* Tentado alterar a cor do meu placeholder mais nao deu muito certo */
+}
+
+input:hover{
+    background-color: rgb(255, 0, 34);
+    color: #000;
+}
+
+
+button:hover{
+    transition: all 0.5s ease;
+    color: #333;
+    background-color: rgb(255, 0, 34);
+    transform: scale(1.1);
+}
+
+#feedback{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
