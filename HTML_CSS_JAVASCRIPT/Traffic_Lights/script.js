@@ -6,7 +6,7 @@ let intervalId = 0
 
 function trafficLights(event){
     stopAutomatc();
-    turnOn[event.target.value]()
+    turnOn[event.target.id]()
 }
 
 const nextIndex= ()=> colorIndex = colorIndex < 2? ++colorIndex : 0

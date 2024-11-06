@@ -1,5 +1,6 @@
 import os
 from cryptography.fernet import Fernet
+
 import getpass
 
 # Função para gerar uma chave de criptografia e salvá-la em um arquivo
@@ -83,3 +84,4 @@ def menu():
 
 # Executar o menu
 menu()
+
