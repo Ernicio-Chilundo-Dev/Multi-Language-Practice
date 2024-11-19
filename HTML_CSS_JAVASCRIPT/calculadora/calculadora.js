@@ -31,10 +31,10 @@ const calcular = ()=>{
 
 const atualizarDisplay = (texto)=>{
     if (novoNumero) {
-        display.textContent = texto.toLocaleString("Br");
+        display.textContent = texto.toLocaleString("BR");
         novoNumero = false;
     }else{
-        display.textContent += texto.toLocaleString("Br");
+        display.textContent += texto.toLocaleString("BR");
     }
 }
 
